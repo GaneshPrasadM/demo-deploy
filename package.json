@@ -1,5 +1,5 @@
 {
-  "name": "demo-deploy",
+  "name": "dateandtimepicker",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -12,20 +12,22 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "^1.4.7",
-	"@angular/compiler-cli": "^4.4.0",
-	"typescript": "^2.3.4",
     "@angular/animations": "^4.0.0",
+    "@angular/cli": "^1.4.7",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.4.0",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/http": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "bootstrap": "^3.3.1",
     "core-js": "^2.4.1",
+    "express": "^4.16.2",
     "rxjs": "^5.1.0",
+    "typescript": "^2.3.4",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
@@ -49,8 +51,8 @@
     "tslint": "~5.3.2",
     "typescript": "~2.3.3"
   },
-  "engines":{
-  "node":"6.10.1",
-  "npm":"3.10.10"
-}
+  "engines": {
+    "node": "6.10.1",
+    "npm": "3.10.10"
+  }
 }
